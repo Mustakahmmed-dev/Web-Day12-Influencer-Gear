@@ -222,3 +222,22 @@ header{
         flex-direction: column;
     }
 }
+
+/* Footer */
+.foo-container{
+    background-color: rgb(10, 8, 38);
+    text-align: center;
+    margin-top: 100px;
+    padding: 80px 10px;
+}
+.foo-contents{
+    color: white;
+}
+.foo-contents p{
+    margin: 10px;
+    color: rgb(217, 219, 225);
+}
+.social-media i{
+    margin-right: 8px;
+    font-size: 20px;
+}
