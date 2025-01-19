@@ -117,6 +117,7 @@ header{
 .shopping-sec{
     max-width: 80%;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 .shopping-sec > h1{
     text-align: center;
@@ -129,7 +130,6 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    margin-bottom: 80px;
 }
 .shopping-card{
     border-radius: 5px;
@@ -165,7 +165,14 @@ header{
 .review-stars{
     color: orange;
 }
-
+.see-more{
+    color: red;
+    font-weight: 600;
+    padding: 14px;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+}
 /* Responsiveness for Popular Collection cards */
 @media screen and (max-width:576px){
     .shopping-cards-container{
@@ -175,5 +182,43 @@ header{
 @media screen and (min-width:576px) and (max-width:992px) {
     .shopping-cards-container{
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* featured-products-sec */
+.featured-products-sec{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.featured-products-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.featured-products-sec img{
+    width: 100%;
+}
+.featured-products-desc{
+    max-width: 700px;
+}
+.featured-products-desc p{
+    margin: 20px 0px;
+    color: rgb(120, 120, 133);
+}
+.featured-products-btn{
+    padding: 12px 20px;
+    background-color: rgb(224, 44, 109);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Responsiveness */
+@media screen and (max-width:992px) {
+    .featured-products-container{
+        flex-direction: column;
     }
 }
