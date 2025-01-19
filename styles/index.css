@@ -52,6 +52,7 @@ header{
 @media screen and (max-width:576px) {
     .nav{
         flex-direction: column;
+        text-align: center;
     }
     .navbar{
         flex-direction: column;
@@ -60,5 +61,42 @@ header{
 @media screen and (min-width:576px) and (max-width:992px) {
     .nav{
         flex-direction: column;
+    }
+}
+
+/* Hero part */
+.hero{
+    display: flex;
+    align-items: center;
+    padding: 60px 15px;
+    gap: 30px;
+    justify-content: space-between;
+}
+.hero img{
+    width: 100%;
+}
+.hero-intro{
+    color: rgb(58, 58, 58);
+}
+.hero-intro > p{
+    margin: 15px 0px 25px;
+}
+.prebook-now{
+    border: 20px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color:  rgb(224, 44, 109);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.fa-arrow-right{
+    margin-left: 5px;
+}
+/* Responsiveness */
+@media screen and (max-width:576px) {
+    .hero{
+        flex-direction: column;
+        text-align: center;
     }
 }
