@@ -73,7 +73,7 @@ header{
     justify-content: space-between;
 }
 .hero img{
-    width: 100%;
+    max-width: 100%;
 }
 .hero-intro{
     color: rgb(58, 58, 58);
