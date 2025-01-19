@@ -111,3 +111,51 @@ header{
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
+/* shopping-sec */
+.shopping-sec{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.shopping-sec > h1{
+    text-align: center;
+    margin: 30px 0px;
+    color: rgb(58, 58, 58);
+    font-size: 30px;
+    font-weight: 600;
+}
+.shopping-cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.shopping-card{
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 14px;
+    
+}
+.shopping-card img{
+    width: 100%;
+}
+.shopping-card h3{
+    margin: 15px 0px;
+    color: rgb(24, 25, 31);
+}
+.shopping-card h3 + span{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+}
+.shopping-card p{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(120, 120, 133);
+    margin: 15px 0px;
+}
+.review-stars{
+    color: orange;
+}
