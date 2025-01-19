@@ -83,7 +83,7 @@ header{
 }
 .prebook-now{
     border: 20px;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 40px;
     background-color:  rgb(224, 44, 109);
     color: white;
@@ -99,4 +99,15 @@ header{
         flex-direction: column;
         text-align: center;
     }
+}
+
+/* Our Products available sites list */
+.available-sites-container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 100px 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
